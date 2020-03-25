@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 1140px;
+    margin: auto;
+    margin-top: 160px;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-top: 21px;
+    padding-bottom: 20px;
+    text-align: right;
+    border-bottom: 1px solid #cecfd5;
+    
+}
+
+th {
+    font-weight: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.th-border {
+    border-bottom: 1px solid #1c1c1c;
+}
+
+tr th:last-child {
+    padding-right: 55px;
+}
+
+tr td:last-child {
+    padding-right: 55px;
+   
+}
+
+
+form {
+    padding-left: 15px;
+}
+
+.no-border {
+    border: none;
+}
+
