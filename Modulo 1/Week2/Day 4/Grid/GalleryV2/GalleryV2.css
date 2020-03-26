@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 108px;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 19px;
+    margin-top: 90px;
+    align-items: flex-end;
+    margin-left: 442px;
+    
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 937px;
+    margin: auto;
+    row-gap: 17px;
+    column-gap: 25px;
+    height: 1227px;
+    margin-bottom: 100px;
+}
