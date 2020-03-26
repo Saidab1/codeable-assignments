@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-features {
+    width: 263px;
+    height: 235px;
+    margin-right: 127px;
+    margin-top: 85px;
+   
+}
+
+main .container-features:last-child {
+    margin-right: 0px;
+}
+.container-features span {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -1.27273px;
+    color: #0AD9C6;
+    
+}
+
+.container-features h2 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+.container-features p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7a7a7a;
+}

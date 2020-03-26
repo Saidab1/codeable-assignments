@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #544E4E;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #A0A2A6;
+    display: flex;
+    justify-content: center;
+    margin-top: 457px;
+}
+
+.container {
+    width: 456px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+}
+
+h1 {
+    line-height: 35px;
+    margin-top: 24px;
+}
